@@ -46,3 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: 'open-san', sans-serif;
+}
+
+body {
+    background-color: rgb(37, 134, 208);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
