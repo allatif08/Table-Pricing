@@ -118,7 +118,7 @@ body {
 .pricing-button {
     border: 1px solid rgb(39, 227, 10);
     border-radius: 10px;
-    color: rgb(81, 96, 255);
+    color: rgb(0, 0, 0);
     display: inline-block;
     padding: 15px 25px;
     text-decoration: none;
@@ -126,14 +126,28 @@ body {
 }
 
 .pricing-button:hover, .pricing-button:focus {
-    background-color: aquamarine;
+    background-color: rgb(236, 239, 75);
 }
 
 .pricing-button.is-feature {
     background-color: rgb(218, 49, 49);
-    color: blueviolet;
+    color: rgb(54, 3, 101);
 }
 
 .pricing-button.is-feature:hover, .pricing-button.is-feature:focus {
     background-color: rgb(81, 231, 61);
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid blueviolet;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
 }
