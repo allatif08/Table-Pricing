@@ -83,3 +83,57 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.pricing-header {
+    color: blue;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-featur {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.pricing-featur-item {
+    color: blueviolet;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid red;
+}
+
+.pricing-featur-item:last-child {
+    border-bottom: 1px solid red;
+}
+
+.pricing-price {
+    color: rgb(104, 65, 6);
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-button {
+    border: 1px solid rgb(39, 227, 10);
+    border-radius: 10px;
+    color: rgb(81, 96, 255);
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 25px 0;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: aquamarine;
+}
+
+.pricing-button.is-feature {
+    background-color: rgb(218, 49, 49);
+    color: blueviolet;
+}
+
+.pricing-button.is-feature:hover, .pricing-button.is-feature:focus {
+    background-color: rgb(81, 231, 61);
+}
